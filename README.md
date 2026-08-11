@@ -59,3 +59,7 @@ Java 包名为 `cn.zhuatech.meetingai`，数据库名为 `zhuatech_meetingai`。
 | ![微信咨询二维码一](docs/images/zhuatech-wechat-consulting.png) | ![微信咨询二维码二](docs/images/zhuatech-wechat-consulting-2.png) |
 
 SEO：AI会议助手、智能会议纪要、会议转写、行动项管理、Java会议系统源码、知华科技、上海如静知华信息科技有限公司。
+
+## 会议决策完整度
+
+新增 `POST /api/meetingai/insights/decision-completeness`，检查决策责任人、截止日期、未决议题、转写覆盖和批准记录，输出 `DISTRIBUTE`、`REVIEW` 或 `INCOMPLETE`。
