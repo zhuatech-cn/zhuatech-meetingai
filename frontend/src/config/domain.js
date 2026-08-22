@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 export const domain={
  code:'MEETINGAI',systemName:'知华 AI 会议协同平台',englishName:'MEETING INTELLIGENCE WORKSPACE',theme:{primary:'#2f6f68',dark:'#183b39',accent:'#c18445',},
  workspace:'总裁办 / 会议运营中心',fieldWorkspace:'产品例会组',period:'2026-08-04 · 实时运营',liveText:'运营数据于 10:36 更新',fieldContextLabel:'当前工作周期',fieldContext:'八月第一周',fieldUser:'周言',fieldRole:'会议记录员',adminUser:'沈知行',adminRole:'会议运营负责人',

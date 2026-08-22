@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 package cn.zhuatech.meetingai.controller;
 import cn.zhuatech.meetingai.common.ApiResponse; import cn.zhuatech.meetingai.dto.AuthDto.*; import cn.zhuatech.meetingai.repository.UserRepository; import cn.zhuatech.meetingai.security.JwtService; import cn.zhuatech.meetingai.service.CurrentUserService; import jakarta.validation.Valid; import org.springframework.security.authentication.*; import org.springframework.web.bind.annotation.*;
 @RestController @RequestMapping("/api/auth") public class AuthController {
